@@ -1,0 +1,12 @@
+@import "./components/Button/button.scss";
+@import "./components/Modal/modal.scss";
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

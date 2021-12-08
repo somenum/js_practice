@@ -1,0 +1,25 @@
+.image-to-show {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+.images-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.controls {
+  display: flex;
+  margin: 20px;
+}

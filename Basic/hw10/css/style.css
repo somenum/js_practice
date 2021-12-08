@@ -1,0 +1,33 @@
+.password-form {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper {
+  position: relative;
+  width: 200px;
+}
+
+.input-wrapper input {
+  min-width: 120px;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+
+.icon-password {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/eye-solid.svg") 0 0 no-repeat;
+}
+.icon-password.view {
+  background: url("../img/eye-slash-solid.svg") 0 0 no-repeat;
+}
+.btn {
+  width: 150px;
+}
+.warning {
+  color: red;
+}

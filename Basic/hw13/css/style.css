@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme-dark {
+  background: #111;
+  color: #f4f4f4;
+}

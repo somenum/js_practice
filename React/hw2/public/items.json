@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Apple",
+    "price": "$11",
+    "url": "./img/aple.jpeg",
+    "article": "16ytiti",
+    "color": "red",
+    "id": "13245"
+  },
+  {
+    "name": "Beet",
+    "price": "$6",
+    "url": "./img/beet.jpeg",
+    "article": "12348kd",
+    "color": "Dark red",
+    "id": "946353"
+  },
+  {
+    "name": "Cabbage",
+    "price": "$17",
+    "url": "./img/cabbage.jpeg",
+    "article": "23864ad",
+    "color": "green",
+    "id": "033645"
+  },
+  {
+    "name": "Carrots",
+    "price": "$10",
+    "url": "./img/carrots.jpeg",
+    "article": "69854kf",
+    "color": "red",
+    "id": "038345"
+  },
+  {
+    "name": "Mandarin",
+    "price": "$15",
+    "url": "./img/mandarin.jpeg",
+    "article": "16478gt",
+    "color": "оrange",
+    "id": "0384645"
+  },
+
+  {
+    "name": "Nuts",
+    "price": "$25",
+    "url": "./img/nuts.jpeg",
+    "article": "56462lb",
+    "color": "brown",
+    "id": "8373547"
+  },
+  {
+    "name": "Orange",
+    "price": "$17",
+    "url": "./img/orange.jpeg",
+    "article": "764768lk",
+    "color": "оrange",
+    "id": "0393745"
+  },
+  {
+    "name": "Pear",
+    "price": "$8",
+    "url": "./img/pear.jpeg",
+    "article": "59472hg",
+    "color": "yellow",
+    "id": "9283645"
+  },
+  {
+    "name": "Plum",
+    "price": "$10",
+    "url": "./img/plum.jpeg",
+    "article": "97438hr",
+    "color": "blue",
+    "id": "10383645"
+  },
+  {
+    "name": "Potato",
+    "price": "$5",
+    "url": "./img/potato.jpeg",
+    "article": "4742kt",
+    "color": "brown",
+    "id": "82735454"
+  }
+]

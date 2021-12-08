@@ -1,0 +1,76 @@
+@mixin flex($vertical, $horisontal, $direction: "row") {
+  display: flex;
+  justify-content: $vertical;
+  align-items: $horisontal;
+  flex-direction: $direction;
+}
+
+@mixin basic-font400 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+@mixin basic-font700 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+@mixin second-font400 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+@mixin second-font700 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+@mixin second-font-italic400 {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+@mixin second-font-italic700 {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+@mixin font-montserrat700 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+@mixin for-tablet {
+  @media (min-width: 481px) {
+    @content;
+  }
+}
+
+@mixin for-desktop {
+  @media (min-width: 993px) {
+    @content;
+  }
+}
+
+@function convert-rem($px) {
+  $result: $px / 20;
+  @return $result + rem;
+}
+
+@function convert-em($px) {
+  $result: $px / 16;
+  @return $result + em;
+}
